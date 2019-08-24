@@ -39,10 +39,9 @@ html {
   margin-top: 15px;
 }
 
-#desc
-{
- margin: 15px;
- font-family: "Times New Roman", Times, serif;
+#desc {
+  margin: 15px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 #div1 img {
@@ -108,9 +107,10 @@ h1 {
   background-color: whitesmoke;
 }
 
-.container {
+/* .container {
   background-color: #fff;
-}
+  margin-left: 300px;
+}  */
 
 section {
   margin: 0 auto;
@@ -120,10 +120,10 @@ section {
 
 #about-img {
   width: 200px;
+  margin-left: 10px;
   height: 150px;
   padding-right: 2em;
   float: left;
-  border-radius: 25px;
 }
 
 section hr {
@@ -136,11 +136,12 @@ section p {
 
 #section-h1 {
   font-size: 2em;
-
+  max-width: 100%;
   padding-top: 1.8em;
   padding-bottom: 1em;
   letter-spacing: 1.5px;
   border-bottom: 2px solid rgba(204, 204, 204, 0.6);
+margin-left: 0.5em;
 }
 
 footer {
@@ -172,19 +173,21 @@ form label {
   text-align: left;
   padding: 0.5em 0;
   display: block;
+  margin-left: 1em;
 }
 
 form input {
   text-indent: 10px;
   font-size: 1.2em;
   height: 2em;
-  width: 100%;
+  width: 95%;
   margin-bottom: 1em;
+  margin-left: 1em;
   display: block;
 }
 
 form button {
-  margin: 1em 0;
+  margin: 1em 1em;
   font-size: 16px;
   padding: 1em;
   width: 10em;
@@ -195,8 +198,9 @@ form button {
 #message {
   text-indent: 10px;
   font-size: 1.2em;
-  width: 100%;
+  width: 95%;
   height: 14em;
+  margin-left: 1em;
 }
 
 .portfolio_image {
@@ -204,7 +208,7 @@ form button {
   height: 220px;
   border: 3px solid greenyellow;
   border-radius: 10px;
-  margin-left: 5em;
+  margin-left: 1em;
   margin-top: 20px;
 }
 
@@ -213,7 +217,7 @@ form button {
   width: 100%;
   border: 3px solid greenyellow;
   border-radius: 10px;
-  margin-left: 10em;
+  margin-left: 5em;
   margin-top: 20px;
 }
 
@@ -222,7 +226,7 @@ form button {
   bottom: 0;
   text-align: center;
   width: 100%;
-  margin-left: 5em;
+  margin-left: 1em;
   background-color: #4aaaa5;
 }
 
@@ -231,7 +235,7 @@ form button {
   bottom: 0;
   text-align: center;
   width: 100%;
-  margin-left: 10em;
+  margin-left: 5em;
 }
 
 .text .text1 a {
@@ -241,6 +245,8 @@ form button {
 
 .project-container {
   position: relative;
+  /* background-color: red; */
+  margin-left: 30px;
 }
 
 .project-container:hover .overlay {
@@ -292,7 +298,7 @@ ul li ul li:hover a {
   color: white;
 }
 
-.center{
+.center {
   text-align: center;
   margin: 15px;
 }
@@ -326,4 +332,18 @@ ul li ul li:hover a {
 .overlay a:hover {
   text-decoration: none;
   color: black;
+}
+
+/* .row{
+  width: 70%;
+  margin-left: 40%;
+} */
+
+.who {
+  margin-left: 24%;
+}
+
+.col-lg-8 {
+  margin-top: 5%;
+  background: #fff;
 }
