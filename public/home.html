@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <!-- <a href="/"><img src="./images/profileimg.jpg" alt=""/></a> -->
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contactinfo">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#project">Project</a></li>
+      <li><a href="#contactinfo">Contact</a></li>
+    </ul>
+
+    <div class="row" id="home">
+      <div id="introDiv" class="center-align">
+        <section><h2 id="name"></h2></section>
+        <section id="description">
+          <h6>A very enthusiastic Web developer</h6>
+
+          <h6>pursuing a carrer path towards becoming a</h6>
+          <h6>FULL STACK WEB DEVELOPER</h6>
+        </section>
+        <section id="links">
+          <a href="#" class="fa fa-github"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-envelope"></a>
+        </section>
+      </div>
+    </div>
+
+    <div class="row" id="aboutRow">
+      <div class="card" id="cardRow">
+        <div class="card-image" id="about">
+          <img src="images/background1.jpg" />
+          <span class="card-title"></span>
+        </div>
+        <div class="card-content">
+          <p>
+            About Me Description
+          </p>
+        </div>
+        <div class="card-action">
+          <form method="get" action="file.doc">
+            <button type="submit">Download!</button>
+          </form>
+          <a href="#">Resume Here</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="projectRow">
+      <div style="background-color: aliceblue; height: auto;"></div>
+      <!-- Project 1 -->
+      <div class="col l4 m6 s12" id="project">
+        <div class="card" id="projectCard1">
+          <div class="card-image">
+            <img src="./images/background2.jpg" />
+            <div class="card-title"></div>
+          </div>
+          <div class="card-content">
+            <section id="project_name">
+              <p>Here will be the project name</p>
+            </section>
+            <section class="description">
+              <p>Here will be the project Description</p>
+            </section>
+          </div>
+
+          <div class="card-action">
+            <a href="#">Github and HerokuLink</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+
+      <div class="col l4 m6 s12">
+        <div class="card" id="projectCard1">
+          <div class="card-image">
+            <img src="./images/background2.jpg" />
+            <div class="card-title"></div>
+          </div>
+          <div class="card-content">
+            <section id="project_name">
+              <p>Here will be the project name</p>
+            </section>
+            <section class="description">
+              <p>Here will be the project Description</p>
+            </section>
+          </div>
+          <div class="card-action">
+            <a href="#">Github and HerokuLink</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+
+      <div class="col l4 m6 s12">
+        <div class="card" id="projectCard1">
+          <div class="card-image">
+            <img src="./images/background2.jpg" />
+            <div class="card-title"></div>
+          </div>
+          <div class="card-content">
+            <section id="project_name">
+              <p>Here will be the project name</p>
+            </section>
+            <section class="description">
+              <p>Here will be the project Description</p>
+            </section>
+          </div>
+
+          <div class="card-action">
+            <a href="#">Github and HerokuLink</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="ContactContainer ">
+      <section class="center" id="contactinfo">Contact Info</section>
+      <div id="contactMeContainer">
+        <div class="col-lg-6 col-md-6 col-sm-12 center" id="contactviaForm">
+          <p>Via Contact Form</p>
+          <p><a href="#">Link to Contact Form </a></p>
+        </div>
+        <div
+          class="col-lg-6 col-md-6 col-sm-12 center"
+          id="contactviaSocialMedia"
+        >
+          <p>Via Social Media Form</p>
+          <p>Social media Icons Here</p>
+          <p>Contact Number</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Footer Content</h5>
+            <p class="grey-text text-lighten-4">
+              You can use rows and columns here to organize your footer content.
+            </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2014 Copyright Text
+          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Particle JS -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+      particlesJS.load("introDiv", "particles.json");
+    </script>
+
+    <!-- Typed JS -->'
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <!-- <script src="./js/typed.js"></script> -->
+    <script>
+      var options = {
+        strings: ["My name is Sachin", "I am a web developer"],
+        typeSpeed: 100,
+        // smartBackspace: false,
+        backDelay: 1500,
+
+        loopCount: Infinity
+        // loop: true
+      };
+
+      var typed = new Typed("#name", options);
+    </script>
+    <!-- Compiled and minified JavaScript -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.js"
+      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var elems = document.querySelectorAll(".sidenav");
+        var instances = M.Sidenav.init(elems);
+      });
+    </script>
+    <script>
+      $(function() {
+        $('a[href*="#"]:not([href="#"])').click(function() {
+          if (
+            location.pathname.replace(/^\//, "") ==
+              this.pathname.replace(/^\//, "") &&
+            location.hostname == this.hostname
+          ) {
+            var target = $(this.hash);
+            target = target.length
+              ? target
+              : $("[name=" + this.hash.slice(1) + "]");
+            if (target.length) {
+              $("html, body").animate(
+                {
+                  scrollTop: target.offset().top - 120
+                },
+                1000
+              );
+              return false;
+            }
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

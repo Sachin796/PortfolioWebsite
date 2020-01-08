@@ -1,0 +1,106 @@
+#introDiv {
+  background-color: blueviolet;
+  height: 100vh;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  width: 100%;
+}
+
+#particle-js {
+  height: 400px;
+}
+
+h2 {
+  margin: 0;
+}
+
+#name {
+  padding-top: 100px;
+}
+
+#description,
+#links {
+  margin-top: 50px;
+}
+
+.typed-cursor {
+  opacity: 0 !important;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-twitter:before,
+.fa-github:before,
+.fa-linkedin:before,
+.fa-envelope:before {
+  color: white;
+}
+
+.fa-twitter:hover,
+.fa-github:hover,
+.fa-linkedin:hover {
+  color: rgb(251, 255, 0);
+}
+
+#cardRow {
+  height: auto;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#aboutRow {
+  background-color: aqua;
+}
+
+#projectRow {
+  width: 100%;
+  height: auto;
+  background-color: aquamarine;
+  float: left;
+}
+
+#contactMeContainer {
+  display: flex;
+
+  background-color: bisque;
+}
+
+#ContactContainer {
+  background-color: blue;
+  width: 100%;
+  margin: 10px;
+}
+
+#contactviaForm {
+  width: 50%;
+  margin: 5px;
+  border: 1px solid black;
+}
+
+#contactviaSocialMedia {
+  border: 1px solid black;
+  width: 50%;
+  margin: 5px;
+}
+
+nav {
+  background-color: blueviolet;
+  box-shadow: none !important;
+}
