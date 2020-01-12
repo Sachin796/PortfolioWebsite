@@ -83,15 +83,15 @@ h2 {
 }
 
 /* #projectdiv {
-  display: flex;
-} */
+    display: flex;
+  } */
 
 /* #project1 {
-  height: 50px;
-  width: 100%;
-  background-color: blue;
-  display: flex;
-} */
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+  } */
 #project1img {
   border: 2px solid red;
   height: fit-content;
@@ -131,11 +131,11 @@ h5 {
 
 #project1div1 {
   /* float: left;
-  height: 100px;
-  width: 100%; */
+    height: 100px;
+    width: 100%; */
   /* margin: 0px; */
   /* background-color: aqua;
-  border: 1px solid black; */
+    border: 1px solid black; */
 }
 
 #projimg {
@@ -147,7 +147,7 @@ h5 {
   height: 87.5vh;
   /* background-color: rgb(168, 157, 157); */
   /* height: auto; 
-  /* float: left; */
+    /* float: left; */
 }
 
 /* mediaquery for height auto */
