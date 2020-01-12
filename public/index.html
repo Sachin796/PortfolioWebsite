@@ -33,6 +33,7 @@
           <ul class="right hide-on-med-and-down">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#techskills">Skills</a></li>
             <li><a href="#project">Project</a></li>
             <li><a href="#contactMeContainer">Contact</a></li>
           </ul>
@@ -43,6 +44,7 @@
     <ul class="sidenav" id="mobile-demo">
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
+      <li><a href="#techskills">Skills</a></li>
       <li><a href="#project">Project</a></li>
       <li><a href="#contactinfo">Contact</a></li>
     </ul>
@@ -67,10 +69,13 @@
 
     <div class="row center" id="aboutRow">
       <div id="cardRow">
+        <div class="center">
+          <h4>ABOUT ME</h4>
+        </div>
         <div class="image" id="about">
           <img
             src="images/background1.jpg"
-            style="height: 300px; width: 300px; border-radius: 50%; margin-top: 30px;"
+            style="height: 210px; width: 230px; border-radius: 50%;"
           />
         </div>
         <div class="l4 m6 s12" style="margin-top: 40px;">
@@ -84,29 +89,70 @@
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
           </p>
         </div>
-        <div style="margin-top: 50px;">
+        <div style="margin-top: 40px;">
           <form method="get" action="file.doc">
             <button type="submit" id="resumebtn">RESUME</button>
           </form>
-          <a href="#"></a>
+          <!-- <a href="#"></a> -->
         </div>
       </div>
     </div>
     <!-- <div class="row" id="aboutRow"></div> -->
 
-    <div class="row" id="projectRow">
-      <p><h2 class="center">PROJECTS</h2></p>
-      <div style="background-color: aliceblue; height: auto;">
+<div class="row" style="border: 1px solid yellow; height: auto;">
+<div class="row center col l12" id="techskills"><h3>TECH SKILLS</h3>
+  <div>
+    <p>FRONT END TECHNOLOGIES</p>
+  <div class="" style="border: 1px solid red; height:auto;">
+    <img src="./images/css.svg" height="90px" width="90px">
+    <img src="./images/html-5.svg" height="90px" width="90px">
+    <img src="./images/java-script.svg" height="90px" width="90px">
+    <img src="./images/bootstrap.svg" height="90px" width="90px">
+    <img src="./images/react.svg" height="90px" width="90px">
+  </div>
+</div>
 
+<div>
+  <p>BACK END TECHNOLOGIES</p>
+<div class="" style="border: 1px solid red; height:auto;">
+  <img src="./images/nodejs.svg" height="90px" width="90px">
+  <img src="./images/expressjs.svg" height="90px" width="90px">
+</div>
+</div>
+
+<div>
+  <p>DATABASE AND DEPLOYMENT</p>
+<div class="" style="border: 1px solid red; height:auto;">
+  <img src="./images/mysql.svg" height="90px" width="90px">
+  <img src="./images/mongodb.svg" height="90px" width="90px">
+  <img src="./images/heroku.svg" height="90px" width="90px">
+  <img src="./images/netlify.png" height="90px" width="90px">
+</div>
+
+<div>
+  <p>PROGRAMMING LANGUAGES</p>
+<div class="" style="border: 1px solid red; height:auto;">
+  <img src="./images/java.svg" height="90px" width="90px">
+  <img src="./images/php.svg" height="90px" width="90px">
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+    <div class="row" id="projectRow">
+      <div style="background-color: aliceblue; height: auto;">
+        
+        <p><h2 class="center">PROJECTS</h2></p>
     <div class="project1div" id="project">
       <!-- <div id="project1"> -->
-    <div class="row">
-      
-    </div>
+
     <div class="row">
 
       <div class="col l5 m6 s12" id="project1img">
-   <img src="./images/images.jpg">
+   <img src="./images/images.jpg" id="projimg">
       </div>
     <div class="col l5 m6 s12" id="project1desc">
       <h2>hello</h2>
@@ -116,14 +162,14 @@
     </div>
 
     <div class="row">
-      <div class="col l5 m6 s12" id="project1desc">
-        <h2>hello</h2>
-        <h4>hii</h4>
-        <h3>Byee</h3>
-      </div>
       <div class="col l5 m6 s12" id="project1img">
         <img src="./images/images.jpg">
-           </div>
+      </div>
+            <div class="col l5 m6 s12" id="project1desc">
+              <h2>hello</h2>
+              <h4>hii</h4>
+              <h3>Byee</h3>
+            </div>
        
     </div>
 
@@ -229,7 +275,7 @@
             if (target.length) {
               $("html, body").animate(
                 {
-                  scrollTop: target.offset().top - 70
+                  scrollTop: target.offset().top - 140
                 },
                 1000
               );
