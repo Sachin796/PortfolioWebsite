@@ -6,11 +6,18 @@ import Contact from "../components/contact";
 import Footer from "../components/footer";
 import Projects from "../components/projects";
 import Techskills from "../components/techskills";
+// import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import ParticleComponent from "../components/particlejs/particle.js";
 
 function MainPage() {
   return (
     <>
+      <Router>
+        <ParticleComponent></ParticleComponent>
+      </Router>
       <NavItems></NavItems>
+
       <Intro></Intro>
       <AboutMe></AboutMe>
       <Techskills></Techskills>
