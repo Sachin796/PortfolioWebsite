@@ -1,7 +1,14 @@
 import React from "react";
 function Techskills() {
   return (
-    <div className="row" style={{ height: "auto" }}>
+    <div
+      className="row"
+      style={{
+        backgroundColor: "rgb(151, 151, 151,0.3)",
+
+        height: "auto"
+      }}
+    >
       <div className="row center col l12">
         <h3 id="techskills">
           TECH SKILLS <hr style={{ width: "10%" }} />

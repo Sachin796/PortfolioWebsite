@@ -15,15 +15,14 @@ function MainPage() {
     <>
       <Router>
         <ParticleComponent></ParticleComponent>
+        <NavItems></NavItems>
+        <Intro></Intro>
+        <AboutMe></AboutMe>
+        <Techskills></Techskills>
+        <Projects></Projects>
+        <Contact></Contact>
+        <Footer></Footer>
       </Router>
-      <NavItems></NavItems>
-
-      <Intro></Intro>
-      <AboutMe></AboutMe>
-      <Techskills></Techskills>
-      <Projects></Projects>
-      <Contact></Contact>
-      <Footer></Footer>
     </>
   );
 }
