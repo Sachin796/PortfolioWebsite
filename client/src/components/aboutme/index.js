@@ -20,9 +20,18 @@ function AboutMe() {
           />
         </div>
         <div className="l4 m6 s12" style={{ marginTop: "40px" }}>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          <p>
+            My name is Sachin Jhaveri and I am a{" "}
+            <span style={{ color: "orange" }}>FULL STACK DEVELOPER</span> in
+            Toronto.
+          </p>
+          <p className="center">
+            &lsquo; I'm passionate about learning new skills and technology. I
+            am a person who is focused <br></br> more towards providing a
+            practical solution to a given business/technical problem and{" "}
+            <br></br>always looking forward to all the new opportunities that
+            come along the way.&rsquo;
+          </p>
         </div>
         <div style={{ marginTop: "25px" }}>
           <form method="get" action="file.doc">

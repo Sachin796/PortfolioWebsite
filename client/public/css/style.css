@@ -58,6 +58,12 @@ h2 {
   color: rgb(251, 255, 0);
 }
 
+.page-footer {
+  padding-top: 0px !important;
+  color: #fff;
+  background-color: blueviolet !important;
+}
+
 #cardRow {
   height: auto;
 
@@ -66,7 +72,11 @@ h2 {
 }
 
 #aboutRow {
-  height: 83vh;
+  height: 95vh;
+}
+
+#contactrow {
+  margin-bottom: 0px !important;
 }
 
 #resumebtn {
@@ -115,6 +125,10 @@ h5 {
   color: blueviolet;
 }
 
+#justcolor {
+  color: blueviolet;
+}
+
 #techskills {
   color: blueviolet;
   margin-bottom: 45px;
@@ -125,7 +139,7 @@ h5 {
 }
 
 #projectRow {
-  height: 87.5vh;
+  height: auto;
 }
 
 /* mediaquery for height auto */

@@ -8,6 +8,7 @@
 .row {
   margin-left: 0px !important;
   margin-right: 0px !important;
+  margin-bottom: 100px !important;
   width: 100%;
 }
 
@@ -95,10 +96,8 @@ h2 {
 #project1img {
   border: 2px solid red;
   height: fit-content;
+
   /* float: left; */
-}
-#project1desc {
-  border: 2px solid yellow;
 }
 
 #project1 {
@@ -123,19 +122,11 @@ h2 {
 
 h5 {
   margin-bottom: 50px;
+  color: black;
 }
 
 #techskills {
   margin-bottom: 45px;
-}
-
-#project1div1 {
-  /* float: left;
-    height: 100px;
-    width: 100%; */
-  /* margin: 0px; */
-  /* background-color: aqua;
-    border: 1px solid black; */
 }
 
 #projimg {
@@ -144,7 +135,7 @@ h5 {
 
 #projectRow {
   /* width: 100%; */
-  height: 87.5vh;
+  height: auto;
   /* background-color: rgb(168, 157, 157); */
   /* height: auto; 
     /* float: left; */
@@ -152,7 +143,6 @@ h5 {
 
 /* mediaquery for height auto */
 #contactMeContainer {
-  display: flex;
   background-color: bisque;
 }
 
@@ -167,7 +157,7 @@ h5 {
 }
 
 #contactviaForm {
-  width: 50%;
+  /* width: 50%; */
   margin: 5px;
   border: 1px solid black;
 }
@@ -185,9 +175,9 @@ image {
 @media only screen and (min-width: 993px) {
   .row .col.l6 {
     width: 100%;
-    margin-left: auto;
+    /* margin-left: auto;
     left: auto;
-    right: auto;
+    right: auto; */
   }
 }
 
