@@ -7,9 +7,21 @@ function Footer() {
           <div className="row">
             <div className="col l6 s12">
               <section id="links">
-                <a href="#" className="fa fa-github"></a>
-                <a href="#" className="fa fa-linkedin"></a>
-                <a href="#" className="fa fa-twitter"></a>
+                <a
+                  href="https://github.com/Sachin796/PortfolioWebsite"
+                  target="_blank"
+                  className="fa fa-github"
+                ></a>
+                <a
+                  href="linkedin.com/in/sachin-javeri-42436280"
+                  target="_blank"
+                  className="fa fa-linkedin"
+                ></a>
+                <a
+                  href="https://twitter.com/Sachin30991736"
+                  target="_blank"
+                  className="fa fa-twitter"
+                ></a>
                 <a href="#" className="fa fa-envelope"></a>
               </section>
               <a className="grey-text text-lighten-3" href="#home">

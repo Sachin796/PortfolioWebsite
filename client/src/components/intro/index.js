@@ -24,7 +24,7 @@ function Intro() {
           <h6>FULL STACK WEB DEVELOPER</h6>
         </section>
         <section id="links">
-          <a href="#" className="fa fa-github"></a>
+          <a href="" className="fa fa-github"></a>
           <a href="#" className="fa fa-linkedin"></a>
           <a href="#" className="fa fa-twitter"></a>
           <a href="#" className="fa fa-envelope"></a>
