@@ -170,7 +170,7 @@ function Techskills() {
                 style={{ marginLeft: "30px" }}
                 className="icondimensions"
               />
-              <figcaption>Node</figcaption>
+              <figcaption>JAVA</figcaption>
             </fig>
             {/*  */}
             <fig className="col l2 m12  s12">
@@ -179,7 +179,7 @@ function Techskills() {
                 style={{ marginLeft: "30px" }}
                 className="icondimensions"
               />
-              <figcaption>Express</figcaption>
+              <figcaption>PHP</figcaption>
             </fig>
             {/*  */}
 
