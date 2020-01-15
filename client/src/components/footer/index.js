@@ -44,7 +44,7 @@ function Footer() {
         </div>
 
         <div className="footer-copyright center">
-          <div className="container">© 2014 Copyright Text</div>
+          <div className="container">© 2020 Copyright Text</div>
         </div>
       </footer>
     </div>
