@@ -1,0 +1,29 @@
+language: node_js
+node_js: "10"
+services:
+  - mysql
+branches:
+  only:
+    - master
+cache:
+  directories:
+    - node_modules;
+    # List of all hooks in travis
+    # before_install:
+    #install:
+    # before_script:
+    #script:
+    #after_success:
+    #after_failure:
+    #after_script:
+    #before_deploy:
+    #deploy:
+    #after_deploy:
+
+    # install:
+    #   - npm ci
+    # script:
+    #   - npm test
+    #   - npm run build
+    # deploy:
+    -
