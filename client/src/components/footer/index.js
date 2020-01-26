@@ -1,4 +1,6 @@
 import React from "react";
+
+import Links from "../socialiconlinks";
 function Footer() {
   return (
     <div>
@@ -6,32 +8,15 @@ function Footer() {
         <div className="container center">
           <div className="row">
             <div className="col l6 s12">
-              <section id="links">
-                <a
-                  href="https://github.com/Sachin796/PortfolioWebsite"
-                  target="_blank"
-                  className="fa fa-github"
-                ></a>
-                <a
-                  href="linkedin.com/in/sachin-javeri-42436280"
-                  target="_blank"
-                  className="fa fa-linkedin"
-                ></a>
-                <a
-                  href="https://twitter.com/Sachin30991736"
-                  target="_blank"
-                  className="fa fa-twitter"
-                ></a>
-                <a href="#" className="fa fa-envelope"></a>
-              </section>
+              <Links></Links>
               <a className="grey-text text-lighten-3" href="#home">
-                Home
+                Home |
               </a>
               <a className="grey-text text-lighten-3" href="#about">
-                About
+                About |
               </a>
               <a className="grey-text text-lighten-3" href="#project">
-                Project
+                Project |
               </a>
               <a
                 className="grey-text text-lighten-3"
