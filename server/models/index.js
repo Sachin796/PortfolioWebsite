@@ -28,16 +28,16 @@ fs.readdirSync(__dirname)
   .forEach(function(file) {
     console.log(file);
     // console.log("--Directory" + path.join(__dirname, file));
-    // db[model.name] = model;
-    // console.log(model);
+    db[model.name] = model;
+    console.log(model);
   });
 
-// Object.keys(db).forEach(function(modelName) {
-//   // console.log(db);
-//   if (db[modelName].associate) {
-//     db[modelName].associate(db);
-//   }
-// });
+Object.keys(db).forEach(function(modelName) {
+  // console.log(db);
+  if (db[modelName].associate) {
+    db[modelName].associate(db);
+  }
+});
 
 db.sequelizeConnection = sequelizeConnection;
 db.Sequelize = Sequelize;

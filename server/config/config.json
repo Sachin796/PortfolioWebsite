@@ -4,18 +4,18 @@
     "password": "password",
     "database": "fullstackportfolio",
     "host": "localhost",
-    "dialect": "mysql"
+    "dialect": "mysql2"
   },
   "test": {
     "username": "root",
     "password": null,
     "database": "fullstackportfolio_testdb",
     "host": "localhost",
-    "dialect": "mysql",
+    "dialect": "mysql2",
     "logging": false
   },
   "production": {
     "use_env_variable": "JAWSDB_URL",
-    "dialect": "mysql"
+    "dialect": "mysql2"
   }
 }
