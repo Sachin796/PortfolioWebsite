@@ -1,5 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
+import Links from "../socialiconlinks";
 
 function Intro() {
   return (
@@ -23,12 +24,7 @@ function Intro() {
           <h6>pursuing a carrer path towards becoming a</h6>
           <h6>FULL STACK WEB DEVELOPER</h6>
         </section>
-        <section id="links">
-          <a href="" className="fa fa-github"></a>
-          <a href="#" className="fa fa-linkedin"></a>
-          <a href="#" className="fa fa-twitter"></a>
-          <a href="#" className="fa fa-envelope"></a>
-        </section>
+        <Links></Links>
       </div>
     </div>
   );
