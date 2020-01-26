@@ -25,13 +25,13 @@ function Footer() {
                 <a href="#" className="fa fa-envelope"></a>
               </section>
               <a className="grey-text text-lighten-3" href="#home">
-                Home
+                Home |
               </a>
               <a className="grey-text text-lighten-3" href="#about">
-                About
+                About |
               </a>
               <a className="grey-text text-lighten-3" href="#project">
-                Project
+                Project |
               </a>
               <a
                 className="grey-text text-lighten-3"

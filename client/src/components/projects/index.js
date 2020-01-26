@@ -29,12 +29,22 @@ function Projects() {
               </div>
               <div className="col l5 m12 s12 center">
                 <div className="center">WORKTOPIA</div>
-                <h5>
+                <h5 style={{ marginBottom: "20px" }}>
                   &ldquo; An application where users can either post office
                   spaces for rent or search for work spaces to rent. &rdquo;
                 </h5>
+                <div style={{ color: "rgb(245, 176, 48)" }}>
+                  Technologies Used
+                </div>
+                <div style={{ fontWeight: "bold" }}>
+                  <p>Front End :- HTML / CSS / BOOTSTRAP / REACT </p>
+                  <p>
+                    Server Side :- MOMENT / EXPRESS / NODE / AWS (S3 bucket)
+                  </p>
+                  <p>Backend :- SEQUELIZE / MYSQL </p>
+                </div>
 
-                <div>
+                <div style={{ marginTop: "55px" }}>
                   <SocialIcon
                     network="github"
                     target="_blank"
@@ -78,12 +88,21 @@ function Projects() {
               </div>
               <div className="col l5  m12 s12 center">
                 <div className="center ">FINANCR</div>
-                <h5>
+
+                <h5 style={{ marginBottom: "20px" }}>
                   &ldquo; Financr is an app that caters to the needs of the
                   financially savy and allows them to make well informed
                   decisions about their purchases &rdquo;
                 </h5>
-                <div style={{ marginBottom: "40x" }}>
+                <div style={{ color: "rgb(245, 176, 48)" }}>
+                  Technologies Used
+                </div>
+                <div style={{ fontWeight: "bold" }}>
+                  <p>Front End :- HTML / CSS / HANDLEBARS / MATERIALIZE</p>
+                  <p>Server Side :- LEAFLET / EXPRESS / NODE</p>
+                  <p>Backend : MYSQL </p>
+                </div>
+                <div style={{ marginBottom: "40x", marginTop: "55px" }}>
                   <SocialIcon
                     network="github"
                     target="_blank"
