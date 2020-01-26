@@ -30,6 +30,7 @@ function Techskills() {
             {frontendimages.map((imagesName, index) => {
               return (
                 <TechTemplate
+                  id={imagesName}
                   className="col l2 m12 s12"
                   src={imagesName}
                   figcaption={frontendfigcation[index]}
@@ -46,6 +47,7 @@ function Techskills() {
             {backendimages.map((imagesName, index) => {
               return (
                 <TechTemplate
+                  id={imagesName}
                   className="col l2 m12 s12"
                   src={imagesName}
                   figcaption={backendfigcation[index]}
@@ -63,6 +65,7 @@ function Techskills() {
             {databasedeploy.map((imagesName, index) => {
               return (
                 <TechTemplate
+                  id={imagesName}
                   className="col l2 m12 s12"
                   src={imagesName}
                   figcaption={databasefigcation[index]}
@@ -80,6 +83,7 @@ function Techskills() {
             {proglanguages.map((imagesName, index) => {
               return (
                 <TechTemplate
+                  id={imagesName}
                   className="col l2 m12 s12"
                   src={imagesName}
                   figcaption={programminglangfigcaption[index]}
