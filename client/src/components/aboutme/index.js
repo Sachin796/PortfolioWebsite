@@ -1,4 +1,5 @@
 import React from "react";
+import API from "../../utils/index";
 
 function AboutMe() {
   return (
@@ -35,11 +36,18 @@ function AboutMe() {
         </div>
         <div style={{ marginTop: "25px" }}>
           {/* <form method="get" action="file.doc"> */}
-          <a href="public/Sachin_Jhaveri_Resume.docx" download="Resume.docx">
-            <button type="submit" id="resumebtn">
-              RESUME
-            </button>
-          </a>
+          {/* <a href="public/Sachin_Jhaveri_Resume.docx" download="Resume.docx"> */}
+          <button
+            type="submit"
+            onClick={() => {
+              API.getResume();
+            }}
+            target="_blank"
+            id="resumebtn"
+          >
+            RESUME
+          </button>
+          {/* </a> */}
           {/* </form> */}
         </div>
       </div>
