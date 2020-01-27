@@ -13,7 +13,7 @@ function Contact() {
       >
         <div style={{ height: "auto" }}>
           <h4 id="justcolor" className="center" style={{ paddingTop: "25px" }}>
-            Contact Us
+            Contact
           </h4>
           <hr style={{ width: "7%", marginBottom: "15px" }}></hr>
         </div>
