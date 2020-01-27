@@ -3,15 +3,14 @@ import NavItems from "../components/nav";
 import Intro from "../components/intro";
 import AboutMe from "../components/aboutme";
 import Contact from "../components/contact";
+// import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import ParticleComponent from "../components/particlejs/particle.js";
 import Footer from "../components/footer";
 import Projects from "../components/projects";
 import Techskills from "../components/techskills";
 import ReactGA from "react-ga";
 require("dotenv").config();
-
-// import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import ParticleComponent from "../components/particlejs/particle.js";
 
 export const initializeReactGA = () => {
   ReactGA.initialize(process.env.GOOGLE_ANALYTICS_KEYS);
