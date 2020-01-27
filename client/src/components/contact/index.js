@@ -4,11 +4,11 @@ function Contact() {
     <>
       <div
         className="row center"
-        id="contactrow"
+        id="contactMeContainer"
         style={{
           backgroundColor: "rgb(151, 151, 151,0.3)",
 
-          height: "auto"
+          height: "60vh"
         }}
       >
         <div style={{ height: "auto" }}>

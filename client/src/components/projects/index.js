@@ -1,6 +1,4 @@
 import React from "react";
-import { BrowserRouter, Route, Link } from "react-router-dom";
-import ReactDOM from "react-dom";
 import { SocialIcon } from "react-social-icons";
 
 function Projects() {
@@ -8,7 +6,7 @@ function Projects() {
     <>
       <div className="row" id="projectRow">
         <div style={{ height: "auto" }}>
-          <h4 id="justcolor" className="center">
+          <h4 id="justcolor" className="center" style={{ marginTop: "10px" }}>
             PROJECTS
           </h4>
           <hr style={{ width: "7%", marginBottom: "55px" }}></hr>

@@ -11,7 +11,7 @@ function AboutMe() {
         </div>
         <div className="image" id="about">
           <img
-            src="images/background1.jpg"
+            src="images/profileimg.jpeg"
             style={{
               height: "210px",
               width: "230px",
