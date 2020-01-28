@@ -1,6 +1,6 @@
 FROM node:10
 
-WORKDIR usr/app
+WORKDIR /usr/app
 
 COPY package*.json ./
 
@@ -8,6 +8,7 @@ RUN npm ci -qy
 
 COPY . .
 
-EXPOSE 3000
+EXPOSE 8080
 
 CMD ["npm","start"]
+
