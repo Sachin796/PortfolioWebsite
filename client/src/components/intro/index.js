@@ -19,10 +19,9 @@ function Intro() {
           </h2>
         </section>
         <section id="description">
-          <h6>A very enthusiastic Web developer</h6>
-
-          <h6>pursuing a carrer path towards becoming a</h6>
-          <h6>FULL STACK WEB DEVELOPER</h6>
+          <h6>A Full Stack Web Developer focusing on building </h6>
+          <h6>efficient,reliable web application with </h6>
+          <h6>great user experience .</h6>
         </section>
         <Links></Links>
       </div>

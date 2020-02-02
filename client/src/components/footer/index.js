@@ -13,23 +13,23 @@ function Footer() {
                 Home |
               </a>
               <a className="grey-text text-lighten-3" href="#about">
-                About |
+                &nbsp; About |
               </a>
               <a className="grey-text text-lighten-3" href="#project">
-                Project |
+                &nbsp; Project |
               </a>
               <a
                 className="grey-text text-lighten-3"
                 href="#contactMeContainer"
               >
-                Contact Me
+                &nbsp; Contact Me
               </a>
             </div>
           </div>
         </div>
 
         <div className="footer-copyright center">
-          <div className="container">© 2020 Copyright Text</div>
+          <div className="container">Copyright @ 2020 Sachin Jhaveri</div>
         </div>
       </footer>
     </div>
