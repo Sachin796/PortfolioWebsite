@@ -27,11 +27,11 @@ function AboutMe() {
             Toronto.
           </p>
           <p className="center">
-            &lsquo; I'm passionate about learning new skills and technology. I
-            am a person who is focused <br></br> more towards providing a
-            practical solution to a given business/technical problem and{" "}
-            <br></br>always looking forward to all the new opportunities that
-            come along the way.&rsquo;
+            I'm passionate about learning new skills and technology. I am a
+            person who is focused <br></br> more towards providing a practical
+            solution to a given business/technical problem and <br></br>always
+            looking forward to all the new opportunities that come along the
+            way.
           </p>
         </div>
         <div style={{ marginTop: "25px" }}>

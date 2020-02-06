@@ -4,7 +4,7 @@ export default {
   getResume: function() {
     const FileSaver = require("file-saver");
     axios
-      .get("./Resume_Sachin_Jhaveri.pdf", {
+      .get("./Resume_Sachin_Jhaveri.pdf ", {
         responseType: "arraybuffer",
         headers: {
           Accept: "application/pdf"
