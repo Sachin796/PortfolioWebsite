@@ -1,14 +1,28 @@
+# setup for the client and build
+
+FROM node:10 as client
+
+WORKDIR /usr/app/client
+COPY client/package*.json ./
+RUN npm install -qy
+COPY client/ ./
+RUN npm run build
+
+#copy the build 
+
 FROM node:10
 
-WORKDIR /usr/src/app
+WORKDIR /usr/app
+COPY --from=client /usr/app/client/build ./client/build/
 
-COPY package*.json ./
+#server configuration
+WORKDIR /usr/app/server
+COPY server/package*.json ./
+RUN npm install -qy
+COPY server/ ./
 
-RUN npm install
+ENV PORT 8000
 
-COPY . .
-
-EXPOSE 3002
+EXPOSE 8000
 
 CMD ["npm","start"]
-
