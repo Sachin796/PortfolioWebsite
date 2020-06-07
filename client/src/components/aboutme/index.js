@@ -16,7 +16,7 @@ function AboutMe() {
               height: "210px",
               width: "230px",
               borderRadius: "50%",
-              marginTop: "10px"
+              marginTop: "10px",
             }}
           />
         </div>

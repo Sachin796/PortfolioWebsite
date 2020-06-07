@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   frontendimages,
   frontendfigcation,
@@ -7,16 +7,21 @@ import {
   databasedeploy,
   databasefigcation,
   proglanguages,
-  programminglangfigcaption
+  programminglangfigcaption,
 } from "./images";
 import TechTemplate from "../technologiesTemplate/index";
+import API from "../../utils/index";
 function Techskills() {
+  useEffect(() => {
+    API.getTechSkills();
+  });
+
   return (
     <div
       className="row"
       style={{
         backgroundColor: "rgb(151, 151, 151,0.3)",
-        height: "auto"
+        height: "auto",
       }}
     >
       <div className="row center col l12 m12">
