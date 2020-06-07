@@ -1,5 +1,3 @@
 module.exports = {
-  getTechSkills: function (req, res, next) {
-    console.log("Inside TechSkillsController");
-  },
+  getTechSkills: function (req, res, next) {},
 };
