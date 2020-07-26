@@ -1,6 +1,7 @@
-module.exports = function (sequelize, DataTypes) {
-  var Techskills = sequelize.define(
-    "portfolio_website",
+"use strict";
+module.exports = (sequelize, DataTypes) => {
+  const techskills = sequelize.define(
+    "techskills",
     {
       frontend: {
         type: DataTypes.STRING(25),
@@ -14,14 +15,11 @@ module.exports = function (sequelize, DataTypes) {
       aws: {
         type: DataTypes.STRING(25),
       },
-      programming_scripting: {
-        type: DataTypes.STRING(45),
-      },
     },
     {
-      tableName: "techskills",
+      timestamps: false,
     }
   );
 
-  return Techskills;
+  return techskills;
 };

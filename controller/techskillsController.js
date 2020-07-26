@@ -1,8 +1,8 @@
-var db = require("../model/techskillsmodal.js");
+var db = require("../model/index");
 
 module.exports = {
-  getTechSkills: function (req, res, next) {
-    console.log("Inside techskills");
-    // db.Techskills.findAll({}).then((data) => console.log(data));
+  getTechSkills: (req, res, next) => {
+    // res.send({ database: Object.keys(db) });
+    db.techskills.findAll({}).then((data) => res.json({ data: data }));
   },
 };
