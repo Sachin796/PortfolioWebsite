@@ -35,8 +35,6 @@ function AboutMe() {
           </p>
         </div>
         <div style={{ marginTop: "25px" }}>
-          {/* <form method="get" action="file.doc"> */}
-          {/* <a href="public/Sachin_Jhaveri_Resume.docx" download="Resume.docx"> */}
           <button
             type="submit"
             onClick={() => {
@@ -47,8 +45,6 @@ function AboutMe() {
           >
             RESUME
           </button>
-          {/* </a> */}
-          {/* </form> */}
         </div>
       </div>
     </div>

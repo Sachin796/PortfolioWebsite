@@ -12,4 +12,11 @@ export default {
       .get("http://localhost:3001/api/techskills/")
       .catch((err) => console.error(err));
   },
+
+  sendEmail: function (req, res) {
+    return axios
+      .post("http://localhost:3001/api/sendEmail")
+      .then((res) => console.log(res))
+      .catch((err) => console.error(err));
+  },
 };

@@ -64,7 +64,7 @@ function Techskills() {
         </div>
         <div>
           <h5 className="col l12 m12 s12">DATABASE AND DEPLOYMENT</h5>
-          <div className="col l12" style={{ height: "auto" }}>
+          <div className="col l12 m12 s12" style={{ height: "auto" }}>
             {/*  */}
             <fig className="col l2 m12 s12"></fig>
             {databasedeploy.map((imagesName, index) => {
