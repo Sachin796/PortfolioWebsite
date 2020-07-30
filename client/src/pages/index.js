@@ -5,7 +5,6 @@ import AboutMe from "../components/aboutme";
 import Contact from "../components/contact";
 // import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import ParticleComponent from "../components/particlejs/particle.js";
 import Footer from "../components/footer";
 import Projects from "../components/projects";
 import Techskills from "../components/techskills";
@@ -32,7 +31,6 @@ class MainPage extends Component {
     return (
       <>
         <Router>
-          <ParticleComponent></ParticleComponent>
           <NavItems></NavItems>
           <Intro></Intro>
           <AboutMe></AboutMe>

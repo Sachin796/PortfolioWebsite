@@ -1,5 +1,5 @@
 import React from "react";
-import API from "../../utils/index";
+import ResumeButton from "../resumebutton/resumebutton";
 
 function AboutMe() {
   return (
@@ -33,18 +33,7 @@ function AboutMe() {
             looking forward to all the new opportunities that come along the
             way.
           </p>
-        </div>
-        <div style={{ marginTop: "25px" }}>
-          <button
-            type="submit"
-            onClick={() => {
-              API.getResume();
-            }}
-            target="_blank"
-            id="resumebtn"
-          >
-            RESUME
-          </button>
+          <ResumeButton text="RESUME" />
         </div>
       </div>
     </div>
