@@ -7,9 +7,10 @@ export default {
       .catch((err) => console.error(err));
   },
 
-  getTechSkills: function () {
+  getTechSkills: () => {
     return axios
       .get("http://localhost:3001/api/techskills/")
+      .then((res) => res.data.data[0])
       .catch((err) => console.error(err));
   },
 
