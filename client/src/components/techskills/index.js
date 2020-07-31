@@ -1,4 +1,9 @@
 import React, { Component } from "react";
+import FrontEnd from "./frontend";
+import BackEnd from "./backend";
+import Database from "./database";
+import Programming from "./programming";
+
 import {
   frontendimages,
   frontendfigcation,
@@ -40,7 +45,7 @@ class Techskills extends Component {
             <div style={{ width: "100%" }}>
               <h5>FRONT END TECHNOLOGIES</h5>
               <div className="" style={{ height: "auto" }}>
-                {/*  */}
+                {/* <FrontEnd /> */}
                 {frontendimages.map((imagesName, index) => {
                   return (
                     <TechTemplate
@@ -58,6 +63,7 @@ class Techskills extends Component {
               <div className="" style={{ height: "auto" }}>
                 {/*  */}
                 <fig className="col l4 m12 s12"></fig>
+                {/* <BackEnd /> */}
                 {backendimages.map((imagesName, index) => {
                   return (
                     <TechTemplate
@@ -76,6 +82,8 @@ class Techskills extends Component {
               <div className="col l12 m12 s12" style={{ height: "auto" }}>
                 {/*  */}
                 <fig className="col l2 m12 s12"></fig>
+                {/* <Database /> */}
+
                 {databasedeploy.map((imagesName, index) => {
                   return (
                     <TechTemplate
@@ -94,6 +102,7 @@ class Techskills extends Component {
               <div className="col l12 m12 s12" style={{ height: "auto" }}>
                 {/*  */}
                 <fig className="col l4 m12 s12"></fig>
+                {/* <Programming /> */}
                 {proglanguages.map((imagesName, index) => {
                   return (
                     <TechTemplate
@@ -115,13 +124,3 @@ class Techskills extends Component {
 }
 
 export default Techskills;
-
-// class Techskills extends Component {
-//   useEffect(() => {
-//     API.getTechSkills();
-//   });
-
-//   return (
-
-//   );
-// }
