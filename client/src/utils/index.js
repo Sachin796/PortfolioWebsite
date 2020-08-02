@@ -47,8 +47,10 @@ export default {
 
   sendEmail: function (req, res) {
     return axios
-      .post("http://localhost:3001/api/sendEmail")
-      .then((res) => console.log(res))
+      .post("http://localhost:3001/api/sendEmail", {
+        req,
+      })
+      .then((res) => res)
       .catch((err) => console.error(err));
   },
 };

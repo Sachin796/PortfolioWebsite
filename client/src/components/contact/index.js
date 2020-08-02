@@ -17,9 +17,15 @@ class Contact extends Component {
     });
   };
 
-  sendEmail = (event) => {
+  sendEmail = async (event) => {
     event.preventDefault();
-    API.sendEmail(this.state);
+    const response = await API.sendEmail(this.state);
+    if (response.status === 200) {
+      alert("Thank you for the email");
+      console.log((document.getElementById("email").value = ""));
+    } else {
+      alert("Error");
+    }
   };
 
   render() {

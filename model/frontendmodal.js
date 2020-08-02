@@ -7,7 +7,7 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.STRING(25),
       },
       link: {
-        type: DataTypes.STRING(25),
+        type: DataTypes.STRING(150),
       },
     },
     {
